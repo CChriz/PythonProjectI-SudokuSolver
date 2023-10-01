@@ -59,25 +59,6 @@ Initiates the solving process of a Sudoku and returns its solution if there is o
 ## Usage
 To use this Sudoku solver, you can call the `sudoku_solver(sudoku)` function, passing in a 9x9 NumPy array representing the unsolved Sudoku puzzle. The function will return the solved Sudoku puzzle or a Sudoku board filled with -1 values if no solution is found.
 
-Here's an example of how to use the Sudoku solver:
-
-```python
-import numpy as np
-
-# Define your Sudoku puzzle as a 9x9 NumPy array with 0s for blank squares.
-# Replace 0s with the initial values in the puzzle.
-sudoku_puzzle = np.array([
-    [5, 3, 0, 0, 7, 0, 0, 0, 0],
-    [6, 0, 0, 1, 9, 5, 0, 0, 0],
-    [0, 9, 8, 0, 0, 0, 0, 6, 0],
-    [8, 0, 0, 0, 6, 0, 0, 0, 3],
-    [4, 0, 0, 8, 0, 3, 0, 0, 1],
-    [7, 0, 0, 0, 2, 0, 0, 0, 6],
-    [0, 6, 0, 0, 0, 0, 2, 8, 0],
-    [0, 0, 0, 4, 1, 9, 0, 0, 5],
-    [0, 0, 0, 0, 8, 0, 0, 7, 9]
-])
-
 # Call the Sudoku solver function to solve the puzzle.
 solved_sudoku = sudoku_solver(sudoku_puzzle)
 
