@@ -6,7 +6,6 @@ This Python code provides a Sudoku solver that can solve 9x9 Sudoku puzzles. It 
 1. [Introduction](#introduction)
 2. [Functions](#functions)
 3. [Usage](#usage)
-4. [License](#license)
 
 ## Introduction
 
@@ -59,8 +58,6 @@ Initiates the solving process of a Sudoku and returns its solution if there is o
 ## Usage
 To use this Sudoku solver, you can call the `sudoku_solver(sudoku)` function, passing in a 9x9 NumPy array representing the unsolved Sudoku puzzle. The function will return the solved Sudoku puzzle or a Sudoku board filled with -1 values if no solution is found.
 
-# Call the Sudoku solver function to solve the puzzle.
+### Call the Sudoku solver function to solve the puzzle.
 solved_sudoku = sudoku_solver(sudoku_puzzle)
-
-# Print the solved Sudoku puzzle.
 print(solved_sudoku)
