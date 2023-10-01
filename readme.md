@@ -60,4 +60,5 @@ To use this Sudoku solver, you can call the `sudoku_solver(sudoku)` function, pa
 
 ### Call the Sudoku solver function to solve the puzzle.
 solved_sudoku = sudoku_solver(sudoku_puzzle)
+
 print(solved_sudoku)
